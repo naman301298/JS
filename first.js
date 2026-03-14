@@ -34,3 +34,23 @@ console.log(student[age]);
 
 student["fullName"] = "Rahul Sharma"
 console.log(student["fullName"])
+
+
+
+//+++++++++++++++++ Practice Question +++++++++++++++++
+
+const product={
+    title:"Ball pen",
+    ratng:4,
+    offer:5,
+    price:270,
+};
+console.log(product);
+
+const profile={
+    username:"naman",
+    isFollow:false,
+    follwers:123,
+    follwing:123
+};
+console.log(typeof profile["follow"])
